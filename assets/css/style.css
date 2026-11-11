@@ -1331,6 +1331,13 @@ footer {
   box-shadow: 0 15px 40px rgba(37,211,102,0.6);
 }
 .wa-btn-float svg { width: 28px; height: 28px; fill: var(--white); }
+@media (max-width: 768px) {
+  .wa-balloon,
+  #wa-widget:hover .wa-balloon,
+  #wa-widget.balloon-open .wa-balloon {
+    display: none !important;
+  }
+}
 
 /* ── Mobile Menu ────────────────────────────── */
 .mobile-menu {
