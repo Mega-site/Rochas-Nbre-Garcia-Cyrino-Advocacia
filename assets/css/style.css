@@ -175,21 +175,18 @@ nav.scrolled {
 }
 @media (max-width: 768px) {
   #home {
-    padding: 130px 24px 0;
-    background-image: none;
-    background: radial-gradient(circle at 50% 15%, #581424 0%, #3C0E19 55%, #20050C 100%);
+    padding: clamp(230px, 32vh, 280px) 24px 60px;
+    background-image: url('../img/backg01mobile.webp');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
   .hero-cta-group {
     align-items: center;
     margin-bottom: 0;
   }
   .hero-mobile-persona {
-    display: block;
-    width: 90%;
-    margin: 20px auto 0;
-    max-width: 320px;
-    height: auto;
-    z-index: 5;
+    display: none;
   }
 }
 .hero-content {
