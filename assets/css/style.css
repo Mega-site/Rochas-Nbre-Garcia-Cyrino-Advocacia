@@ -226,10 +226,10 @@ h1#hero-title em {
 }
 .hero-title-subtext {
   display: block;
-  font-size: clamp(1.25rem, 2.2vw, 1.85rem);
-  line-height: 1.25;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+  line-height: 1.35;
   color: rgba(255, 255, 255, 0.92);
-  margin-top: 10px;
+  margin-top: 12px;
   font-weight: 400;
 }
 .hero-title-subtext em {
