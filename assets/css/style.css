@@ -175,9 +175,9 @@ nav.scrolled {
 }
 @media (max-width: 768px) {
   #home {
-    padding: 280px 24px 0;
-    background-image: url('../img/backg01mobile.webp');
-    background-position: top center;
+    padding: 130px 24px 0;
+    background-image: none;
+    background: radial-gradient(circle at 50% 15%, #581424 0%, #3C0E19 55%, #20050C 100%);
   }
   .hero-cta-group {
     align-items: center;
